@@ -66,7 +66,7 @@ if submit:
     # Tampilkan Hasil
     st.markdown("---")
     st.markdown(f"""
-        <div style="padding:20px; background-color:#f9f9f9; border-radius:10px; border: 2px solid {warna};">
+        <div style="padding:20px; border-radius:10px; border: 2px solid {warna};">
             <h2 style="color:{warna}; text-align:center;">Skor Kualitas Tidur: {skor}/10</h2>
             <h3 style="text-align:center;">Tingkat: {tingkat}</h3>
             <div style="text-align:center;">
@@ -86,7 +86,7 @@ if submit:
         st.success("😴 Tidur kamu sangat baik! Pertahankan gaya hidup sehat dan konsisten.")
 
     st.markdown("""
-        <div style="margin-top:20px; padding:15px; background-color:#e8f0fe; border-radius:10px;">
+        <div style="margin-top:20px; padding:15px; border-radius:10px;">
             <p><b>💡 Tips:</b> Tidur yang berkualitas sangat dipengaruhi oleh stres, kafein, dan aktivitas fisik. Usahakan tidur cukup dan hindari gadget sebelum tidur.</p>
         </div>
     """, unsafe_allow_html=True)
